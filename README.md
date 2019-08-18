@@ -7,4 +7,5 @@ To be more concrete, representation of a node i and its neighbors (j) are multip
 Resulting weight is softmaxed over all the neighbors to normalize it. Normalized weight are used to multiply neighbor representation and finally, all the neighbor's representations are added to make up node's representation.
 
 
+* [GAT tutorial](https://docs.dgl.ai/en/latest/tutorials/models/1_gnn/9_gat.html)
 * [Understanding Attention in GNN](https://slideslive.com/38915806/understanding-attention-in-graph-neural-networks)
