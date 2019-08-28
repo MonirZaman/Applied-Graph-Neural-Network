@@ -1,8 +1,8 @@
 # Applied-Graph-Neural-Network
 
 ## Extracting embedding from Graph Neural Network
-[Notebook](Graph%20Convolutional%20Networks%20Demo.ipynb)
-![Cora embedding](/image/cora_embedding.png)
+[Notebook](Graph%20Convolutional%20Networks%20Demo.ipynb)  
+![Cora embedding](cora_embedding.png)
 
 ## Attention in Graph Neural Network (GNN)
 Attention introduces weight to quantify how relevant information from neighboring nodes are. In GNN, representation of a node is a combination of its own information as well as the information from its neighbors. Attention weights are used to scale up and down information from neighbors that are relevant and not relevant, respectively. 
