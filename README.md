@@ -9,7 +9,7 @@ Attention introduces weight to quantify how relevant information from neighborin
 
 To be more concrete, representation of a node i and its neighbors (j) are multipled with a learnable weight matrix a which is then activated through RELU or LeakyRELU. This is akin to similarity calculation between the node and its neighbor. 
 Resulting weight is softmaxed over all the neighbors to normalize it. Normalized weight are used to multiply neighbor representation and finally, all the neighbor's representations are added to make up node's representation. It is summarized in the picture below.    
-![gat](/images/gat.png)  
+![gat](/gat.png)  
 
 In Multi-head attention, mutiple attention matrices are calculated. Motivation is that each attention head will learn a specific aspect of neighbors. At the end, all attention heads are either averaged or concatenated into one attention matrix. When attention distribution are uniformly distributed over all the neighbors, then applying attention has less value.  
 
