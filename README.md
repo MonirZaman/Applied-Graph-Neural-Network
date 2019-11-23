@@ -17,6 +17,9 @@ In Multi-head attention, mutiple attention matrices are calculated. Motivation i
 * [GAT tutorial](https://docs.dgl.ai/en/latest/tutorials/models/1_gnn/9_gat.html)
 * [Understanding Attention in GNN](https://slideslive.com/38915806/understanding-attention-in-graph-neural-networks)
 
+## GNN usecase
+[1](Usecases-of-GNN.md)
+
 ## Dealing with Class imbalance problem
 * Weight minority class higher in the loss function e.g.,  
 number-of-records / (number of class * number of records of a class)  
