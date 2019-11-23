@@ -1,7 +1,9 @@
-## Particle Track Reconstruction in Large Hadron Collider
+## Particle Track Reconstruction in Large Hadron Collider (LHC)
 ```
 Farrell, Steven, et al. "Novel deep learning methods for track reconstruction." arXiv preprint arXiv:1810.06111 (2018).
 ```
+In LHC, data are produced at an unprecendented scale. One of the important tasks is to track particle as they move around the collider. GNN is being used for particle tracking.  
+
 * Data are space-point representation of HEPtrackingdata
 * Contains Hits, interactions information
 * Track building with Recurrent Neural Networks(RNNs)  
@@ -23,3 +25,11 @@ Farrell, Steven, et al. "Novel deep learning methods for track reconstruction." 
   * Identifies a track by performing binary hit classification in a partially labeled graph. It is node classification.
     * Graph is given first three hit labels as True. 7 iteration of information passing is performed. Sigmoid activation is done to identify node label (True or False) denoting whether node belongs to the track.
   * Identifies many tracks at once by performing binary segment classification. It performs classification on graph edges
+  
+  * Scaling
+    * Subset of datasets are created maining a balance between small, medium and large training files
+    * Distributed training have been applied. 
+ 
+ Reference:  
+ 1. [Poster](https://indico.cern.ch/event/708041/contributions/3269696/attachments/1809739/2955133/vlimant_ACAT-HtrkX_March19.pdf)
+ 2. [Paper](Farrell, Steven, et al. "Novel deep learning methods for track reconstruction." arXiv preprint arXiv:1810.06111 (2018).)
