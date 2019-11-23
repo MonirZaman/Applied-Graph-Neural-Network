@@ -12,8 +12,8 @@
     * Hits are also connected on adjacent layers when they are compatible according to some criteria
   * Architecture of GNN model
       * An input transformation layer appears first and then is followed by alternating EdgeNetwork and NodeNetwork
-      * NodeNetwork computes node features based on the neighboring nodes and 
-      * EdgeNetwork computes edge features based on the start and end node
+      * NodeNetwork computes node features based on the neighboring nodes and weight neighboring nodes information using edge weight.
+      * EdgeNetwork computes edge's weight based on the start and end node
       * In each iteration of the GNN, the model propagates information through the graph that helps to stress important connections and weaken useless connections.
 
   * Identifies a track by performing binary hit classification in a partially labeled graph. It is node classification.
