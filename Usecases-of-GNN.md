@@ -13,7 +13,7 @@ In LHC, data are produced at an unprecendented scale. One of the important tasks
    * It selects the highest scoring hit in the event on each successive layer
 * Track ﬁnding with Graph Neural Networks (GNNs)
   * How graph is constructed
-  ![particle-graph](/images/particle.png)
+  ![particle-graph](/particle.png)
     * Connects hits using geo-metric constraints or by using preprocessing algorithm
     * Hits are also connected on adjacent layers when they are compatible according to some criteria
     * During inference, graphs are constructed with 4 hits on each detector layer in the region around the true track and connecting all hits together on adjacent layers.
