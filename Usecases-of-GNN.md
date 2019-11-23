@@ -32,4 +32,4 @@ In LHC, data are produced at an unprecendented scale. One of the important tasks
  
  Reference:  
  1. [Poster](https://indico.cern.ch/event/708041/contributions/3269696/attachments/1809739/2955133/vlimant_ACAT-HtrkX_March19.pdf)
- 2. [Paper](Farrell, Steven, et al. "Novel deep learning methods for track reconstruction." arXiv preprint arXiv:1810.06111 (2018).)
+ 2. Farrell, Steven, et al. "Novel deep learning methods for track reconstruction." arXiv preprint arXiv:1810.06111 (2018).
