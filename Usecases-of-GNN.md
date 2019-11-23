@@ -1,4 +1,7 @@
 ## Particle Track Reconstruction in Large Hadron Collider
+```
+Farrell, Steven, et al. "Novel deep learning methods for track reconstruction." arXiv preprint arXiv:1810.06111 (2018).
+```
 * Data are space-point representation of HEPtrackingdata
 * Contains Hits, interactions information
 * Track building with Recurrent Neural Networks(RNNs)  
